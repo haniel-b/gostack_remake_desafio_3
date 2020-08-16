@@ -52,7 +52,7 @@ describe("App component", () => {
         techs: ["React", "Node.js"],
       },
     ]);
-
+    
     apiMock.onDelete("repositories/123").reply(204);
 
     await actWait();
